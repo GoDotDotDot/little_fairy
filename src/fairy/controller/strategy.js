@@ -20,7 +20,7 @@ export default class extends Base {
       this.fail(100, `addr_id:${addr_id}`)
     }
     try {
-      let data = await this.model('strategy').where({addr_id}).find()
+      let data = await this.model('strategy').where({addr_id})
       this.success({data})
     } catch (ex) {
       this.fail(500, ex)

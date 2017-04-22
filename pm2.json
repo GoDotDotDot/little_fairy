@@ -1,6 +1,6 @@
 {
   "apps": [{
-    "name": "C:UserschukuDocumentsFrontEndC:UserschukuDocumentsFrontEndlittle_fairy",
+    "name": "little_fairy",
     "script": "www/production.js",
     "cwd": "./",
     "exec_mode": "cluster",
