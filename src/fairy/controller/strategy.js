@@ -28,8 +28,11 @@ export default class extends Base {
   }
   async postStrategyAction () {
     let form = this.post()
-
-    let data = await this.model('strategy').select()
-    this.success({data})
+    try {
+      let data = await this.model('strategy').add({...form})
+      this.success({data})
+    } catch (ex) {
+      this.fail(ex)
+    }
   }
 }
