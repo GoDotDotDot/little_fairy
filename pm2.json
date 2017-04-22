@@ -1,7 +1,7 @@
 {
   "apps": [{
     "name": "little_fairy",
-    "script": "www/production.js",
+    "script": "./www/production.js",
     "cwd": "./",
     "exec_mode": "cluster",
     "instances": 0,
