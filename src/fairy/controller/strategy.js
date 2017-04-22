@@ -28,6 +28,7 @@ export default class extends Base {
   }
   async postStrategyAction () {
     let form = this.post()
+    this.header('Access-Control-Allow-Origin', '*')
     try {
       let data = await this.model('strategy').add({...form})
       this.success({data})
