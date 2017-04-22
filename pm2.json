@@ -2,7 +2,7 @@
   "apps": [{
     "name": "C:UserschukuDocumentsFrontEndC:UserschukuDocumentsFrontEndlittle_fairy",
     "script": "www/production.js",
-    "cwd": "C:\Users\chuku\Documents\FrontEnd\little_fairy",
+    "cwd": "./",
     "exec_mode": "cluster",
     "instances": 0,
     "max_memory_restart": "1G",
